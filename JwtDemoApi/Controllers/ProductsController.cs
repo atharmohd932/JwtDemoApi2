@@ -9,6 +9,7 @@ namespace JwtDemoApi.Controllers
     [ApiController]
     [Route("api/[controller]")]
     [Authorize] // any logged-in user (User or Admin) can hit these unless overridden below
+    //Testing
     public class ProductsController : ControllerBase
     {
         private readonly AppDbContext _db;
